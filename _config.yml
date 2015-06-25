@@ -1,0 +1,67 @@
+name: Alongamentos.com
+description: "Exercícios voltados para o aumento da flexibilidade muscular."
+meta_description: "Artigos sobre alongamentos."
+
+aboutPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://alongamentos.com'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus_shortname: 'alongamentos'
+
+# Details for the RSS feed generator
+url:            'http://alongamentos.com'
+author:         'Alongamentos.com'
+authorTwitter:  'alongamentos'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+
+videos:
+  - title: Vídeo de Alongamentos do Tricípete
+    id: VAKpqiOwF2k
+  - title: Vídeo de Alongamentos do Bicípete
+    id: jgVPu7OHVeA
+  - title: Vídeo de Alongamentos dos Peitorais
+    id: JGTYV5mLT8Y
+  - title: Vídeo de Alongamentos dos Abdominais
+    id: q7uj4Lk-VLc
+  - title: Vídeo de Alongamentos Dorsal
+    id: ofYXmjaxtmU
+  - title: Vídeo de Alongamentos à Lombar
+    id: Dqxv-JeL7Yc
+  - title: Vídeo de Alongamentos dos Glúteos
+    id: o-qK5cxppv0
+  - title: Vídeo de Alongamentos do Quadricípete
+    id: qK_69QXlG3g
+  - title: Vídeo de Alongamentos dos Isquiotibiais
+    id: 1phpB1RpGXA
+  - title: Vídeo de Alongamentos dos Isquiotibiais
+    id: ojOiZvUCTQs
+  - title: Vídeo de Alongamentos dos Gémeos
+    id: PEWePfdtxDE
+
+social:
+  - title: facebook
+    url: http://www.facebook.com/abdominais
+  - title: twitter
+    url: http://www.twitter.com/abdominais
+  - title: youtube
+    url: https://www.youtube.com/user/abdominaiscom

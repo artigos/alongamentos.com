@@ -1,0 +1,10 @@
+<nav class="main-nav">
+    {% if page.url != "/index.html" %}
+        <a href='{{ site.baseurl }}{{ page.about }}'> <span class="arrow">←</span> Home </a>
+    {% endif %}
+
+    <a href='{{ site.baseurl }}artigos.html'>Artigos</a>
+    <a href='{{ site.baseurl }}videos.html'>Vídeos</a>
+
+    <a class="cta" href="{{ site.baseurl }}feed.xml">Subscrever</a>
+</nav>

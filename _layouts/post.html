@@ -1,0 +1,46 @@
+---
+layout: default
+disqus: true
+archive: true
+---
+
+<article class="post">
+    <header>
+        <h1>{{ page.title }}</h1>
+
+        <h2 class="headline">
+            {% assign m = page.date | date: "%-m" %}
+            {{ page.date | date: "%-d de" }}
+            {% case m %}
+              {% when '1' %}Janeiro
+              {% when '2' %}Fevereiro
+              {% when '3' %}Março
+              {% when '4' %}Abril
+              {% when '5' %}Maio
+              {% when '6' %}Junho
+              {% when '7' %}Julho
+              {% when '8' %}Agosto
+              {% when '9' %}Setembro
+              {% when '10' %}Outubro
+              {% when '11' %}Novembro
+              {% when '12' %}Dezembro
+            {% endcase %}
+            {{ page.date | date: "de %Y" }}
+        </h2>
+    </header>
+    <section id="post-body">
+        {{content}}
+    </section>
+</article>
+
+{% include adsense.html %}
+
+<hr/>
+
+<!-- Disqus comments -->
+{% if page.disqus %}
+    <div class="archive readmore">
+        <h3>Comentários</h3>
+        {% include disqus.html %}
+    </div>
+{% endif %}
