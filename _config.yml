@@ -10,7 +10,7 @@ highlighter: pygments
 paginate: 20
 baseurl: /
 domain_name: 'http://alongamentos.com'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-23792428-8'
 disqus_shortname: 'alongamentos'
 
 # Details for the RSS feed generator
